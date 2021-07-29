@@ -7,7 +7,7 @@ app.use(express.static(__dirname + "/public"));
 global.__basedir = __dirname;
 
 app.use(bodyparse.json());
-app.use(bodyparse.urlencoded({extended: true}))
+app.use(bodyparse.urlencoded({extended: fal}))
 
 
 
